@@ -11,13 +11,37 @@ client.commands.register(//register command
     const valid = argOptions.registerArgs({
         data: data, name: 'censorword',
         commands: {
-            0: { subcommand: 'list', description: 'Censor word list.' },
-            1: { subcommand: 'add', arguments: '<add: string>', description: 'Add censor word.' },
-            2: { subcommand: 'remove', arguments: '<remove: string>', description: 'Remove censor word.' },
-            3: { subcommand: 'replace', arguments: '<searchValue: string> <replaceValue: string>', description: 'Replace censor word.' },
-            4: { subcommand: 'preset', description: 'Add censor word preset.' },
-            5: { subcommand: 'setdf', description: 'Set censor word to default.' },
-            6: { subcommand: 'rmall', description: 'Remove all censor word.' } //remove all
+            0: {
+                subcommand: 'list',
+                description: 'Censor word list.'
+            },
+            1: {
+                subcommand: 'add',
+                arguments: '<add: string>',
+                description: 'Add censor word.'
+            },
+            2: {
+                subcommand: 'remove',
+                arguments: '<remove: string>',
+                description: 'Remove censor word.'
+            },
+            3: {
+                subcommand: 'replace',
+                arguments: '<searchValue: string> <replaceValue: string>',
+                description: 'Replace censor word.'
+            },
+            4: {
+                subcommand: 'preset',
+                description: 'Add censor word preset.'
+            },
+            5: {
+                subcommand: 'setdf',
+                description: 'Set censor word to default.'
+            },
+            6: {
+                subcommand: 'rmall',
+                description: 'Remove all censor word.'
+            } //remove all
         }
     });
     const permission = data.sender.hasTag(':staff:'); //check permission
@@ -62,7 +86,7 @@ client.commands.register(//register command
                 return;
             }
             catch (err) {
-                return send('§aadd §fnull (§cerror§f).');
+                return send('§aAdd §fnull (§cerror§f).');
             }
         case 'remove': //remove censor word
             try {
@@ -80,7 +104,7 @@ client.commands.register(//register command
                     return send('§cNo objective was found by the \'' + data.args[1] + '\'');
             }
             catch (err) {
-                return send('§dreplace §fnull (§cerror§f).');
+                return send('§dRemove §fnull (§cerror§f).');
             }
         case 'replace': //replace censor word
             try {
@@ -100,7 +124,7 @@ client.commands.register(//register command
                     return send('§cNo objective was found by the \'' + data.args[1] + '\'');
             }
             catch (err) {
-                return send('§dreplace §fnull (§cerror§f).');
+                return send('§dReplace §fnull (§cerror§f).');
             }
         case 'preset': //add censor word preset
             profanity.forEach(word => {
