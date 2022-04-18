@@ -14,30 +14,30 @@ client.commands.register(//register command
             0: {
                 subcommand: 'list',
                 description: 'Censor word list.'
-            },
+            }, //list
             1: {
                 subcommand: 'add',
                 arguments: '<add: string>',
                 description: 'Add censor word.'
-            },
+            }, //add
             2: {
                 subcommand: 'remove',
                 arguments: '<remove: string>',
                 description: 'Remove censor word.'
-            },
+            }, //remove
             3: {
                 subcommand: 'replace',
                 arguments: '<searchValue: string> <replaceValue: string>',
                 description: 'Replace censor word.'
-            },
+            }, //replace
             4: {
                 subcommand: 'preset',
                 description: 'Add censor word preset.'
-            },
+            }, //add censor word preset
             5: {
                 subcommand: 'setdf',
                 description: 'Set censor word to default.'
-            },
+            }, //set default
             6: {
                 subcommand: 'rmall',
                 description: 'Remove all censor word.'
