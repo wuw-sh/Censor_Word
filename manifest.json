@@ -24,7 +24,7 @@
         0,
         1
       ],
-      "entry": "scripts/censorSystem.js"
+      "entry": "scripts/index.js"
     }
   ],
   "dependencies": [
