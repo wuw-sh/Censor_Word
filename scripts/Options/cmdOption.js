@@ -1,1 +1,155 @@
-var R=["\x63\x65\x6E\x73\x6F\x72\x77\x6F\x72\x64","\xA7\x61\x5B\x20\xA7\x65\x63\x73\x77\x20\xA7\x61\x5D\x20\xA7\x66\x43\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x20\x6F\x70\x74\x69\x6F\x6E\x73\x2E","\x63\x73\x77","\xA7\x65\x28\xA7\x72","\x72\x65\x6D\x6F\x76\x65","\xA7\x63\x4E\x6F\x20\x6F\x62\x6A\x65\x63\x74\x69\x76\x65\x20\x77\x61\x73\x20\x66\x6F\x75\x6E\x64\x20\x62\x79\x20\x74\x68\x65\x20\x27","\xA7\x66\x44\x6F\x6E\x27\x74\x20\x68\x61\x76\x65\x20\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x2E","\x27\x20\x61\x6C\x72\x65\x61\x64\x79\x20\x65\x78\x69\x73\x74\x73\x2E","\x61\x64\x64","\x70\x72\x65\x73\x65\x74","\x72\x65\x70\x6C\x61\x63\x65","\x6C\x69\x73\x74","\x43\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x20\x6C\x69\x73\x74\x2E","\x3C\x61\x64\x64\x3A\x20\x73\x74\x72\x69\x6E\x67\x3E","\x41\x64\x64\x20\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x2E","\x3C\x72\x65\x6D\x6F\x76\x65\x3A\x20\x73\x74\x72\x69\x6E\x67\x3E","\x52\x65\x6D\x6F\x76\x65\x20\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x2E","\x3C\x73\x65\x61\x72\x63\x68\x56\x61\x6C\x75\x65\x3A\x20\x73\x74\x72\x69\x6E\x67\x3E\x20\x3C\x72\x65\x70\x6C\x61\x63\x65\x56\x61\x6C\x75\x65\x3A\x20\x73\x74\x72\x69\x6E\x67\x3E","\x52\x65\x70\x6C\x61\x63\x65\x20\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x2E","\x41\x64\x64\x20\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x20\x70\x72\x65\x73\x65\x74\x2E","\x73\x65\x74\x64\x66","\x53\x65\x74\x20\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x20\x74\x6F\x20\x64\x65\x66\x61\x75\x6C\x74\x2E","\x72\x6D\x61\x6C\x6C","\x52\x65\x6D\x6F\x76\x65\x20\x61\x6C\x6C\x20\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x2E","\x72\x65\x67\x69\x73\x74\x65\x72\x41\x72\x67\x73","\x3A\x73\x74\x61\x66\x66\x3A","\x68\x61\x73\x54\x61\x67","\x73\x65\x6E\x64\x65\x72","\xA7\x63\x59\x6F\x75\x20\x64\x6F\x6E\x27\x74\x20\x68\x61\x76\x65\x20\x70\x65\x72\x6D\x69\x73\x73\x69\x6F\x6E\x20\x74\x6F\x20\x75\x73\x65\x20\x27\x63\x65\x6E\x73\x6F\x72\x77\x6F\x72\x64\x27\x20\x63\x6F\x6D\x6D\x61\x6E\x64\x2E","\x73\x65\x6E\x64\x4D\x65\x73\x73\x61\x67\x65","\x65\x78\x65\x63\x75\x74\x65\x43\x6F\x6D\x6D\x61\x6E\x64","\x74\x65\x6C\x6C\x72\x61\x77\x20","\x20\x7B\x22\x72\x61\x77\x74\x65\x78\x74\x22\x3A\x5B\x7B\x22\x74\x72\x61\x6E\x73\x6C\x61\x74\x65\x22\x3A\x22","\x22\x7D\x5D\x7D","\x40\x61\x5B\x74\x61\x67\x3D\x22\x3A\x73\x74\x61\x66\x66\x3A\x22\x5D","\x67\x65\x74\x4E\x61\x6D\x65","\xA7\x61\x55\x73\x61\x67\x65\x20\xA7\x66\x2D\x3E\x20\xA7\x65\x2D\x63\x73\x77\x20\x61\x64\x64\x20\xA7\x36\x3C\x61\x64\x64\x3A\x20\x73\x74\x72\x69\x6E\x67\x3E\x20\xA7\x37\x41\x64\x64\x20\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x2E","\xA7\x61\x55\x73\x61\x67\x65\x20\xA7\x66\x2D\x3E\x20\xA7\x65\x2D\x63\x73\x77\x20\x72\x65\x6D\x6F\x76\x65\x20\xA7\x36\x3C\x72\x65\x6D\x6F\x76\x65\x3A\x20\x73\x74\x72\x69\x6E\x67\x3E\x20\xA7\x37\x52\x65\x6D\x6F\x76\x65\x20\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x2E","\xA7\x61\x55\x73\x61\x67\x65\x20\xA7\x66\x2D\x3E\x20\xA7\x65\x2D\x63\x73\x77\x20\x72\x65\x70\x6C\x61\x63\x65\x20\xA7\x36\x3C\x73\x65\x61\x72\x63\x68\x56\x61\x6C\x75\x65\x3A\x20\x73\x74\x72\x69\x6E\x67\x3E\x20\x3C\x72\x65\x70\x6C\x61\x63\x65\x56\x61\x6C\x75\x65\x3A\x20\x73\x74\x72\x69\x6E\x67\x3E\x20\xA7\x37\x52\x65\x70\x6C\x61\x63\x65\x20\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x2E","\x6C\x65\x6E\x67\x74\x68","\x61\x72\x67\x73","\x63\x65\x6E\x73\x6F\x72\x57\x6F\x72\x64","\xA7\x37\x2D\x20\xA7\x66","\x66\x6F\x72\x45\x61\x63\x68","\x69\x6E\x63\x6C\x75\x64\x65\x73","\xA7\x63\x27","\x70\x75\x73\x68","\xA7\x65\x29\x20\xA7\x61\x41\x64\x64\x20\xA7\x66\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x20\xA7\x65","\x73\x61\x76\x65","\xA7\x61\x41\x64\x64\x20\xA7\x66\x6E\x75\x6C\x6C\x20\x28\xA7\x63\x65\x72\x72\x6F\x72\xA7\x66\x29\x2E","\x69\x6E\x64\x65\x78\x4F\x66","\x73\x70\x6C\x69\x63\x65","\xA7\x65\x29\x20\xA7\x63\x52\x65\x6D\x6F\x76\x65\x20\xA7\x66\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\xA7\x37\x3A\x20\xA7\x65","\x27","\xA7\x64\x52\x65\x6D\x6F\x76\x65\x20\xA7\x66\x6E\x75\x6C\x6C\x20\x28\xA7\x63\x65\x72\x72\x6F\x72\xA7\x66\x29\x2E","\xA7\x65\x29\x20\xA7\x64\x52\x65\x70\x6C\x61\x63\x65\x20\xA7\x66\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\xA7\x37\x3A\x20\xA7\x65","\x20\xA7\x66\x74\x6F\x20\xA7\x65","\xA7\x64\x52\x65\x70\x6C\x61\x63\x65\x20\xA7\x66\x6E\x75\x6C\x6C\x20\x28\xA7\x63\x65\x72\x72\x6F\x72\xA7\x66\x29\x2E","\xA7\x65\x29\x20\xA7\x61\x41\x64\x64\x20\xA7\x66\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x20\xA7\x62\x70\x72\x65\x73\x65\x74\xA7\x66\x2E","\xA7\x65\x29\x20\xA7\x66\x53\x65\x74\x20\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x20\x74\x6F\x20\xA7\x62\x64\x65\x66\x61\x75\x6C\x74\xA7\x66\x2E","\xA7\x65\x29\x20\xA7\x63\x52\x65\x6D\x6F\x76\x65\x20\xA7\x66\x61\x6C\x6C\x20\x63\x65\x6E\x73\x6F\x72\x20\x77\x6F\x72\x64\x2E","\x20\x20\xA7\x61\x41\x6C\x69\x61\x73\x65\x73\xA7\x37\x3A\x20\xA7\x66\x5B\x20\xA7\x65\x63\x73\x77\x20\xA7\x66\x5D","\x72\x65\x67\x69\x73\x74\x65\x72","\x63\x6F\x6D\x6D\x61\x6E\x64\x73","\x5C\x6E\xA7\x65\x43\x65\x6E\x73\x6F\x72\x20\x57\x6F\x72\x64\x20\x4C\x69\x73\x74\xA7\x37\x3A\x20\xA7\x66\x5C\x6E"];var I=[R[0],R[1],R[2],R[3],R[4],R[5],R[6],R[7],R[8],R[9],R[10],R[11],R[12],R[13],R[14],R[15],R[16],R[17],R[18],R[19],R[20],R[21],R[22],R[23],R[24],R[25],R[26],R[27],R[28],R[29],R[30],R[31],R[32],R[33],R[34],R[35],R[36],R[37],R[38],R[39],R[40],R[41],R[42],R[43],R[44],R[45],R[46],R[47],R[48],R[49],R[50],R[51],R[52],R[53],R[54],R[55],R[56],R[57],R[58],R[59],R[60],R[61],R[62],R[63]];var J=I[0];import {client as P} from '../beapi_modules/BEAPI_CORE_SCRIPT.js';import {argOptions as V} from './argOptions.js';import {cwData as T} from '../Database/index.js';import {profanity as h} from '../Profanity/index.js';P[I[63]][I[62]]({name:J,description:I[1],aliases:[I[2]]},E=>{var U=41;var O=40;var i=I[3];var F=I[4];var A=I[5];var N=I[6];var k=I[7];var e=I[8];var v=I[9];var S=I[10];var C=V[I[24]]({data:E,name:J,commands:{0:{subcommand:I[11],description:I[12]},1:{subcommand:e,arguments:I[13],description:I[14]},2:{subcommand:F,arguments:I[15],description:I[16]},3:{subcommand:S,arguments:I[17],description:I[18]},4:{subcommand:v,description:I[19]},5:{subcommand:I[20],description:I[21]},6:{subcommand:I[22],description:I[23]}}});var w=E[I[27]][I[26]](I[25]);if(!w){return E[I[27]][I[29]](I[28]);}var n=Q=>{return E[I[27]][I[30]](Q);};var X=(r,Z)=>{return I[31] + Z + I[32] + r + I[33];};var d=f=>{return n(X(f,I[34]));};var W=j=>{return E[I[27]][I[29]](j);};var G=E[I[27]][I[35]]();var c=[[e,I[36]],[F,I[37]],[S,I[38]]];for(var y=0;y < c[I[39]];y++){if(E[I[O]][0] === c[y][0] && E[I[O]][1] === undefined){C[0]=true;return W(c[y][1]);}}if(T[I[U]][0] === undefined){return W(N);}switch(E[I[O]][0]){case I[11]:if(T[I[U]][0] !== undefined){W(`${R[64]}`);T[I[U]][I[43]](p=>{W(I[42] + p);});return;}else {return W(N);}case e:try{if(T[I[U]][I[44]](E[I[O]][1])){return W(I[45] + E[I[O]][1] + k);}T[I[U]][I[46]](E[I[O]][1]);d(i + G + I[47] + E[I[O]][1]);T[I[48]]();return;}catch(K){return W(I[49]);}case F:try{if(T[I[U]][I[44]](E[I[O]][1])){T[I[U]][I[51]](T[I[U]][I[50]](E[I[O]][1]),1);d(i + G + I[52] + E[I[O]][1]);T[I[48]]();return;}else {return W(A + E[I[O]][1] + I[53]);}}catch(H){return W(I[54]);}case S:try{if(T[I[U]][I[44]](E[I[O]][2])){return W(I[45] + E[I[O]][2] + k);}if(T[I[U]][I[44]](E[I[O]][1])){T[I[U]][T[I[U]][I[50]](E[I[O]][1])]=E[I[O]][2];d(i + G + I[55] + E[I[O]][1] + I[56] + E[I[O]][2]);T[I[48]]();return;}else {return W(A + E[I[O]][1] + I[53]);}}catch(L){return W(I[57]);}case v:h[I[43]](M=>{if(T[I[U]][I[44]](M)){return;}T[I[U]][I[46]](M);T[I[48]]();});d(i + G + I[58]);return;case I[20]:T[I[U]]=h;d(i + G + I[59]);T[I[48]]();return;case I[22]:if(T[I[U]][0] === undefined){return W(N);}T[I[U]]=[];d(i + G + I[60]);T[I[48]]();return;}if(C[0] === false){W(C[1]);W(I[61]);}});
+import { client } from '../beapi_modules/BEAPI_CORE_SCRIPT.js';
+import { argOptions } from './argOptions.js';
+import { cwData } from '../Database/index.js';
+import { profanity } from '../Profanity/index.js';
+client.commands.register(//register command
+{
+    name: 'censorword',
+    description: '§a[ §ecsw §a] §fCensor word options.',
+    aliases: ['csw'], //command aliases
+}, data => {
+    const valid = argOptions.registerArgs({
+        data: data, name: 'censorword',
+        commands: {
+            0: {
+                subcommand: 'list',
+                description: 'Censor word list.'
+            },
+            1: {
+                subcommand: 'add',
+                arguments: '<add: string>',
+                description: 'Add censor word.'
+            },
+            2: {
+                subcommand: 'remove',
+                arguments: '<remove: string>',
+                description: 'Remove censor word.'
+            },
+            3: {
+                subcommand: 'replace',
+                arguments: '<searchValue: string> <replaceValue: string>',
+                description: 'Replace censor word.'
+            },
+            4: {
+                subcommand: 'preset',
+                description: 'Add censor word preset.'
+            },
+            5: {
+                subcommand: 'setdf',
+                description: 'Set censor word to default.'
+            },
+            6: {
+                subcommand: 'rmall',
+                description: 'Remove all censor word.'
+            } //remove all
+        }
+    });
+    const permission = data.sender.hasTag(':staff:'); //check permission
+    if (!permission)
+        return data.sender.sendMessage('§cYou don\'t have permission to use \'censorword\' command.'); //if not permission
+    const cmd = (cmd) => data.sender.executeCommand(cmd); //execute command
+    const rawtext = (msg, target) => 'tellraw ' + target + ' {"rawtext":[{"translate":"' + msg + '"}]}'; //rawtext
+    const sendStaff = (msg) => cmd(rawtext(msg, '@a[tag=":staff:"]')); //send staff message
+    const send = (msg) => data.sender.sendMessage(msg); //send player message
+    const senderName = data.sender.getName(); //get name
+    const subinput = [
+        ['add', '§aUsage §f-> §e-csw add §6<add: string> §7Add censor word.'],
+        ['remove', '§aUsage §f-> §e-csw remove §6<remove: string> §7Remove censor word.'],
+        ['replace', '§aUsage §f-> §e-csw replace §6<searchValue: string> <replaceValue: string> §7Replace censor word.']
+    ];
+    for (let i = 0; i < subinput.length; i++) { //for sub input
+        if ((data.args[0] === subinput[i][0]) && data.args[1] === undefined) {
+            valid[0] = true;
+            return send(subinput[i][1]);
+        }
+    }
+    switch (data.args[0]) { //switch subcommand
+        case 'list': //censor word list
+            if (cwData.censorWord[0] !== undefined) {
+                send(`\n§eCensor Word List§7: §f\n`);
+                cwData.censorWord.forEach(word => {
+                    send('§7- §f' + word);
+                });
+                return;
+            }
+            else
+                return send('§fDon\'t have censor word.');
+        case 'add': //add censor word
+            try {
+                if (data.args[1] === undefined)
+                    return;
+                if (cwData.censorWord.includes(data.args[1]))
+                    return send('§c\'' + data.args[2] + '\' already exists.');
+                cwData.censorWord.push(data.args[1]);
+                sendStaff('§e(§r' + senderName + '§e) §aAdd §fcensor word §e' + data.args[1]);
+                cwData.save();
+                return;
+            }
+            catch (err) {
+                return send('§aAdd §fnull (§cerror§f).');
+            }
+        case 'remove': //remove censor word
+            try {
+                if (data.args[1] === undefined)
+                    return;
+                if (cwData.censorWord[0] === undefined)
+                    return send('§fDon\'t have censor word.');
+                if (cwData.censorWord.includes(data.args[1])) {
+                    cwData.censorWord.splice(cwData.censorWord.indexOf(data.args[1]), 1);
+                    sendStaff('§e(§r' + senderName + '§e) §cRemove §fcensor word§7: §e' + data.args[1]);
+                    cwData.save();
+                    return;
+                }
+                else
+                    return send('§cNo objective was found by the \'' + data.args[1] + '\'');
+            }
+            catch (err) {
+                return send('§dRemove §fnull (§cerror§f).');
+            }
+        case 'replace': //replace censor word
+            try {
+                if (data.args[1] === undefined)
+                    return;
+                if (cwData.censorWord[0] === undefined)
+                    return send('§fDon\'t have censor word.');
+                if (cwData.censorWord.includes(data.args[2]))
+                    return send('§c\'' + data.args[2] + '\' already exists.');
+                if (cwData.censorWord.includes(data.args[1])) {
+                    cwData.censorWord[cwData.censorWord.indexOf(data.args[1])] = data.args[2];
+                    sendStaff('§e(§r' + senderName + '§e) §dReplace §fcensor word§7: §e' + data.args[1] + ' §fto §e' + data.args[2]);
+                    cwData.save();
+                    return;
+                }
+                else
+                    return send('§cNo objective was found by the \'' + data.args[1] + '\'');
+            }
+            catch (err) {
+                return send('§dReplace §fnull (§cerror§f).');
+            }
+        case 'preset': //add censor word preset
+            profanity.forEach(word => {
+                if (cwData.censorWord.includes(word))
+                    return;
+                cwData.censorWord.push(word);
+                cwData.save();
+            });
+            sendStaff('§e(§r' + senderName + '§e) §aAdd §fcensor word §bpreset§f.');
+            return;
+        case 'setdf': //set default censor word
+            cwData.censorWord = profanity;
+            sendStaff('§e(§r' + senderName + '§e) §fSet censor word to §bdefault§f.');
+            cwData.save();
+            return;
+        case 'rmall': //remove all censor word
+            if (cwData.censorWord[0] === undefined)
+                return send('§fDon\'t have censor word.');
+            cwData.censorWord = [];
+            sendStaff('§e(§r' + senderName + '§e) §cRemove §fall censor word.');
+            cwData.save();
+            return;
+    }
+    if (valid[0] === false) { //if valid false
+        send(valid[1]);
+        send('  §aAliases§7: §f[ §ecsw §f]');
+    }
+});
