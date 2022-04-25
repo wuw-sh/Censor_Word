@@ -42,12 +42,11 @@ client.commands.register(//register command
                 6: {
                     subcommand: 'rmall',
                     description: 'Remove all censor word.'
-                } //remove all
+                }
             }
         });
         const permission = data.sender.hasTag(':staff:'); //check permission
-        if (!permission)
-            return data.sender.sendMessage('§cYou don\'t have permission to use \'censorword\' command.'); //if not permission
+        if (!permission) return data.sender.sendMessage('§cYou don\'t have permission to use \'censorword\' command.'); //if not permission
         const cmd = (cmd) => data.sender.executeCommand(cmd); //execute command
         const rawtext = (msg, target) => 'tellraw ' + target + ' {"rawtext":[{"translate":"' + msg + '"}]}'; //rawtext
         const sendStaff = (msg) => cmd(rawtext(msg, '@a[tag=":staff:"]')); //send staff message
@@ -58,7 +57,7 @@ client.commands.register(//register command
             ['remove', '§aUsage §f-> §e-csw remove §6<remove: string> §7Remove censor word.'],
             ['replace', '§aUsage §f-> §e-csw replace §6<searchValue: string> <replaceValue: string> §7Replace censor word.']
         ];
-        for (let i; i < subinput.length; i++) {
+        for (let i = 0; i < subinput.length; i++) {
             if (data.args[0] === subinput[i][0] && data.args[1] === undefined) {
                 valid[0] = true;
                 return send(subinput[i][1]);
