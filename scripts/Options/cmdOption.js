@@ -58,12 +58,12 @@ client.commands.register(//register command
             ['remove', '§aUsage §f-> §e-csw remove §6<remove: string> §7Remove censor word.'],
             ['replace', '§aUsage §f-> §e-csw replace §6<searchValue: string> <replaceValue: string> §7Replace censor word.']
         ];
-        subinput.map(x => {
-            if (data.args[0] === subinput[x.indexOf(data.args[0])][0] && data.args[1] === undefined) {
+        for (let i; i < subinput.length; i++) {
+            if (data.args[0] === subinput[i][0] && data.args[1] === undefined) {
                 valid[0] = true;
-                return send(subinput[x.indexOf(data.args[0])][1]);
-            }w
-        })
+                return send(subinput[i][1]);
+            }
+        }
         switch (data.args[0]) { //switch subcommand
             case 'list': //censor word list
                 if (cwData.censorWord[0] !== undefined) {
