@@ -53,7 +53,7 @@ client.commands.register(//register command
         const send = (msg) => data.sender.sendMessage(msg); //send player message
         const senderName = data.sender.getName(); //get name
         const subinput = [
-            ['add', '§aUsage §f-> §e-csw add §6<add: string> §7Adda censor word.'],
+            ['add', '§aUsage §f-> §e-csw add §6<add: string> §7Add censor word.'],
             ['remove', '§aUsage §f-> §e-csw remove §6<remove: string> §7Remove censor word.'],
             ['replace', '§aUsage §f-> §e-csw replace §6<searchValue: string> <replaceValue: string> §7Replace censor word.']
         ];
