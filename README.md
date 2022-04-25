@@ -1,2 +1,2 @@
 # Censor-word-Addon
-Censor word addon JS MCPE By @wuw6248
+Censor word addon Javascript MCPE By @wuw6248
