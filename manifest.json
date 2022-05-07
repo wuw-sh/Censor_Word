@@ -15,6 +15,13 @@
       0
     ]
   },
+  "metadata": {
+    "authors": [
+      "wuw6248"
+    ],
+    "license": "MIT",
+    "url": "github.com/wuw6248/Censor_Word"
+  },
   "modules": [
     {
       "type": "javascript",
