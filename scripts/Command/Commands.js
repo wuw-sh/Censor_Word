@@ -58,6 +58,9 @@ client.commands.register({
         valid[0] = true;
         return send(subinput[subfind][1]);
     }
+    if (subinput[subfind] && args[1] !== undefined) {
+        valid[0] = true
+    }
     if (valid[0] === false)
         return send(valid[1] + '  \u00a7aAliases\u00a77: \u00a7f[ \u00a7ecsw \u00a7f]');
     switch (args[0]) { //switch subcommand
