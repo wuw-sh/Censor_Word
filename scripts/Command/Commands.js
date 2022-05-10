@@ -37,10 +37,6 @@ client.commands.register({
             5: {
                 subcommand: 'setdf',
                 description: 'Set censor word to default.'
-            },
-            6: {
-                subcommand: 'rmall',
-                description: 'Remove all censor word.'
             }
         }
     });
@@ -134,15 +130,6 @@ client.commands.register({
             Database.censorWord = profanity;
             sendStaff('\u00a77(\u00a7r' + senderName + '\u00a77) \u00a7fSet censor word to \u00a7bdefault\u00a7f.');
             Database.save();
-            return;
-        case 'rmall': //remove all censor word
-            if (Database.censorWord[0] === undefined)
-                return send('\u00a7cCensor word is empty.');
-            Modal.findAll({ censorWord: Database.censorWord }).forEach(modal => {
-                modal.delete();
-                send(modal.censorWord.toString());
-            });
-            sendStaff('\u00a77(\u00a7r' + senderName + '\u00a77) \u00a7cRemove all \u00a7fcensor word.');
             return;
     }
 });
