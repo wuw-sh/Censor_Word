@@ -5,4 +5,4 @@ Censor word addon Javascript MCPE By @wuw6248
 
 
 
-It's actually written in Typescript, but uses a nodemodule, compiles Typescript to Javascript, and uses the BeAPI module package for easier and more efficient writing.
+It's actually written in Typescript, but uses a nodemodule compiles Typescript to Javascript, and uses the BeAPI module package for easier and more efficient writing.
